@@ -1,5 +1,5 @@
 {
-  "name": "bird-safe-philly-viz",
+  "name": "bird-safe-philly-visx-gatsby",
   "version": "1.0.0",
   "private": true,
   "description": "Bird Safe Philly Viz",
@@ -13,7 +13,9 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "git add . && git commit -m Build && git push",
+    "vercel": "npm run deploy && vercel --prod",
+    "github": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@visx/annotation": "^2.5.0",

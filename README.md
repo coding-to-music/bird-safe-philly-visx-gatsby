@@ -1,3 +1,41 @@
+# bird-safe-philly-visx-gatsby
+
+# 🚀 Javascript full-stack 🚀
+
+## MERN Stack
+
+Visualizations for the Bird Safe Philly project on iNaturalist
+
+https://github.com/coding-to-music/bird-safe-philly-visx-gatsby
+
+https://bird-safe-philly-visx-gatsby.vercel.app
+
+From / By Navin Sasikumar
+
+https://github.com/navinsasikumar/bird-safe-philly-viz
+
+https://www.inaturalist.org/projects/bird-safe-philly-bird-strikes-project
+
+https://navinsasikumar.github.io/bird-safe-philly-viz/
+
+## Environment variables:
+
+```java
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/bird-safe-philly-visx-gatsby.git
+git push -u origin main
+```
+
 # Bird Safe Philly Data Visualizations
 
 Data for visualizations from the [Bird Safe Philly iNaturalist project](https://www.inaturalist.org/projects/bird-safe-philly-bird-strikes-project)
@@ -5,6 +43,7 @@ Data for visualizations from the [Bird Safe Philly iNaturalist project](https://
 URL: [https://navinsasikumar.github.io/bird-safe-philly-viz/](https://navinsasikumar.github.io/bird-safe-philly-viz/)
 
 ## Deployment
+
 ```
 npm run deploy
 ```
