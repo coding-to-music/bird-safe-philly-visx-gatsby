@@ -7,6 +7,9 @@
   "keywords": [
     "gatsby"
   ],
+  "cacheDirectories": [
+    "node_modules"
+  ],
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
